@@ -98,22 +98,25 @@
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
 
-var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  
-for (var i = arr.length - 1; i >= 0; i--) {
-    console.log(arr[i]);
-}
+// for (var i = arr.length - 1; i >= 0; i--) {
+//     console.log(arr[i]);
+// }
 
 ////////// PROBLEM 8 //////////
 
-let score = 0;
-let passingScore = 7;
+// let score = 4;
+// let passingScore = 7;
 
 /*
   Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
 */
 
-//CODE HERE
+// while (score < passingScore){
+//   console.log('Your score is not high enough')
+//   score ++
+// }
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -124,7 +127,7 @@ let passingScore = 7;
 
 */
 
-//CODE HERE
+let changeMyMind = true
 
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
